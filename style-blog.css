@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif}
+
+.header {
+    width: auto;
+    height: 40px;
+    background-color: darkblue;
+    text-align: center;
+}
+ header {padding: 10px;
+    font-size: 20px;
+ }
+
+ header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+ } 
+.blog {
+    color: rgb(4, 196, 4);
+}
+
+.text-box {
+    width: 1000px;
+    margin: 25px auto;
+
+}
+.topic {
+    width: 400px;
+    display: inline-block;
+    text-transform:capitalize ;
+    vertical-align: top;
+    font-size: 20px;
+    color: darkblue;
+
+}
+.topic-info {
+    width: 400px;
+    height: 120px;
+    font-size: 14px;
+    vertical-align: top;
+    color: black;
+}
+.line-1 {
+    margin: 0 50px;
+}
+.link-1 {
+    background-color: rgb(4, 141, 4);       
+    width: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.two {
+    display: block;
+    margin: 25px 50px;
+}
+.learn-more {
+    color: rgb(4, 141, 4);  
+}
+.second {
+    height: 60px;
+}
+.line-2{
+    display: inline-block;
+    vertical-align: top;    
+}
+.line-desk {
+    margin: 50px 0;
+}
+.three {
+    display: block;
+    margin: 25px 0;
+}
+
